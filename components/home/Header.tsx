@@ -7,20 +7,20 @@ const Header = () => {
       <TouchableOpacity>
         <Image
           style={{ height: 50, resizeMode: 'contain', marginLeft: -15 }}
-          source={require('../assets/images/logo-instagram.png')}
+          source={require('../../assets/images/logo-instagram.png')}
         />
       </TouchableOpacity>
       <View className="flex-row gap-x-2">
         <TouchableOpacity>
           <Image
             style={{ width: 30, height: 30 }}
-            source={require('../assets/images/newicon.png')}
+            source={require('../../assets/images/newicon.png')}
           />
         </TouchableOpacity>
         <TouchableOpacity>
           <Image
             style={{ width: 30, height: 30 }}
-            source={require('../assets/images/heart.png')}
+            source={require('../../assets/images/heart.png')}
           />
         </TouchableOpacity>
         <TouchableOpacity>
@@ -30,7 +30,7 @@ const Header = () => {
           <Image
             style={{ width: 30, height: 30 }}
             className="relative"
-            source={require('../assets/images/message.png')}
+            source={require('../../assets/images/message.png')}
           />
         </TouchableOpacity>
       </View>
